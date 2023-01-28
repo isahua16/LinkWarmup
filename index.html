@@ -1,13 +1,41 @@
 <!DOCTYPE html>
-<html lang=en>
+<html lang="en">
   <head>
-    <meta charset=UTF-8 />
-    <meta http-equiv=X-UA-Compatible content=IE=edge />
-    <meta name=viewport content=width=device-width, initial-scale=1.0 />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE" ="edge" />
+    <meta
+      name="viewport"
+      content="width"
+      ="device-width,"
+      initial-scale="1.0"
+    />
     <link rel=stylesheet href=css/style.css />
-    <title>LinkWarmup</title>
+    <title>My Book Store</title>
   </head>
   <body>
-    <p>Hello World!</p>
+    <div class="content">
+      <header>
+        <h1>My Good Reads</h1>
+        <h6 id="time"></h6>
+      </header>
+      <main>
+        <article>
+          <h3>The Name of the Wind</h3>
+          <img
+            src="/images/wind.png"
+            alt="Book Cover of The Name of the Wind by Patrick Rothfuss"
+            width="100px"
+          />
+          <a id="book1" href="https://a.co/d/0c3OC58" target="_blank"
+            >Buy on Amazon</a
+          >
+        </article>
+        <article></article>
+        <article></article>
+      </main>
+    </div>
   </body>
+  <script>
+    document.getElementById("time").innerHTML = Date();
+  </script>
 </html>
