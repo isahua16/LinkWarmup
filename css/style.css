@@ -17,6 +17,12 @@ main {
   flex-direction: column;
   gap: 32px;
 }
+
+main p {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  text-align: center;
+  padding: 50px 50px;
+}
 article {
   display: flex;
   flex-direction: column;
@@ -24,4 +30,10 @@ article {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
   padding: 24px 24px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
